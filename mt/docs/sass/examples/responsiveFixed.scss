@@ -1,6 +1,7 @@
 @import 'compass';
 @import 'compass/reset';
 @import 'compass/css3';
+
 @import "icons/*.png";
 
 @include all-icons-sprites;
