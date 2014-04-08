@@ -152,8 +152,13 @@ header {
   background: #000;
   margin-bottom: 20px;
 }
+header .forkme{
+    float: right;
+    position: absolute;
+    right:0px;
+    top:0px;
+}
 header .center {
-  width: container_width();
   margin: 0 3.85%;
   *zoom: 1;
   position: relative;
@@ -219,7 +224,7 @@ header .center h1 {
   font-size: 28px;
   padding-top: 60px;
   padding-bottom: 30px;
-  color: #b7b7b7;
+  color: #fff;
 }
 header .center h2 {
   color: #b7b7b7;
@@ -243,6 +248,7 @@ header .center h2 {
   margin-left: 0px;
   margin-right: 0px;
   margin: 0 auto;
+  color:#fff;
 }
 
 @media screen and (min-width: 460px) {
@@ -332,7 +338,6 @@ nav div {
 }
 nav div ul {
   *zoom: 1;
-  width: container_width();
   margin: 0 3.85%;
   height: 100%;
   position: relative;
@@ -409,7 +414,6 @@ nav div ul #navTwitter {
   margin: 0px;
 }
 #grid div {
-  width: container_width();
   margin: 0 3.85%;
   height: 100%;
   opacity: 0.3;
@@ -461,7 +465,6 @@ footer div h3 {
 }
 footer div #company {
   *zoom: 1;
-  width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
   text-align: center;
@@ -487,7 +490,6 @@ footer div #company a {
 }
 footer div #meta {
   *zoom: 1;
-  width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
   padding-top: 20px;
@@ -596,7 +598,6 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 #reference ul {
   *zoom: 1;
-  width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
 }
@@ -665,7 +666,6 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
   margin: 0 auto;
 }
 #examples ul {
-  width: container_width();
   margin: 0 3.85%;
   *zoom: 1;
 }
@@ -769,7 +769,6 @@ footer div #meta div:nth-child(2) a:nth-child(2) {
 }
 #downloads ul {
   *zoom: 1;
-  width: container_width();
   margin: 0 3.85%;
   max-width: 1233px;
 }
